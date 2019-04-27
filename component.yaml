@@ -1,0 +1,7 @@
+name: nginx-app
+subcomponents:
+- name: nginx
+  generator: helm
+  source: https://github.com/helm/charts.git
+  method: git
+  path: "stable/nginx-ingress"
